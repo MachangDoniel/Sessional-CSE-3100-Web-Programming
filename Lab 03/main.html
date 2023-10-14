@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+ul {
+    font-size: large;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+    height: 50px;
+    width:500px;
+}
+li {
+    display: inline;
+}
+li a {
+    color:white;
+    font-weight: bold;
+    margin: 5px;
+}
+img {
+  position: relative;
+  left: 0px;
+  top: 10px;
+  width: 200px;
+  z-index: -1;
+  border-radius: 3%;
+}
+.container{
+    width: 100%;
+    height: auto;
+    background: #007bbf;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+
+.card {
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 210px;
+    border-radius: 10%;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+body{
+    margin: 20px;
+}
+</style>
+</head>
+<body>
+
+<ul>
+    <li><a href="https://www.google.com/">Home</a></li>
+    <li><a href="https://www.youtube.com">News</a></li>
+    <li><a href="https://www.kuet.ac.bd">Contact</a></li>
+    <li><a href="https://www.facebook.com">About</a></li>
+    <li><a href="https://www.ijsrp.org/">Publication</a></li>
+</ul>
+<div style="display:flex">
+<div class="card">
+    <a href="https://www.ebl.com.bd/retail/retail-loan">
+    <img src="retainloan.jpg" alt="Retain Loan">
+    <h4><b style="margin:10px">Retain loan</b></h4> </a>
+    
+</div>
+<div class="card">
+    <a href="https://www.ebl.com.bd/retail/retail-deposit">
+    <img src="retaildeposite.jpg" alt="Retain Deposite">
+      <h4><b style="margin:10px">Retain Deposite</b></h4> </a>
+</div>
+</div>
+<div style="display:flex">
+    <div class="card">
+        <a href="https://www.ebl.com.bd/priority">
+        <img src="prioritybanking.jpg" alt="Priority Banking">
+          <h4><b style="margin:10px">Priority Banking</b></h4> </a>
+    </div>
+    <div class="card">
+        <a href="https://www.ebl.com.bd/retail/EBL-Student-Banking">
+        <img src="studentbanking.jpg" alt="Student Banking">
+          <h4><b style="margin:10px">Student Banking</b></h4> </a>
+    </div>
+    </div>
+
+</body>
+</html>
+
+
